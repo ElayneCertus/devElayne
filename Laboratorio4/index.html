@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Laboratorio 4-pajare</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="./css/estilos.css" rel="stylesheet" type="text/css" />
+  </head>
+
+  <body>
+    <header> 
+      <h2> CATÁLOGO DE PRODUCTOS </h2> 
+    </header>
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th colspan="4">Lista de Pedidos</th>
+          </tr>
+          <tr>
+            <th>Nombre de Producto</th>
+            <th>Precio Unitario</th>
+            <th>Unidades</th>
+            <th>Subtotal</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="productoName">
+              <span>Jarabe de Goma</span>
+              <img src="./imagenes/jarabeDeGoma.png" alt="Jarabe de Goma" />
+            </td>
+            <td>S/ 10.00</td>
+            <td>3</td>
+            <td>S/ 30.00</td>
+          </tr>
+          <tr>
+            <td class="productoName">
+              <span>Picolis</span>
+              <img src="./imagenes/picolis.png" alt="Picolis" />
+            </td>
+            <td>S/ 23.00</td>
+            <td>2</td>
+            <td>S/ 46.00</td>
+          </tr>
+          <tr>
+            <td class="productoName">
+              <span>Primadona</span>
+              <img src="./imagenes/primadona.png" alt="Primadona" />
+            </td>
+            <td>S/ 20.00</td>
+            <td>1</td>
+            <td>S/ 20.00</td>
+          </tr>
+          <tr>
+            <td colspan="3" class="total"><b>Total</b></td>
+            <td>S/ 96.00</td>
+          </tr>
+          <tr class="confirmacion">
+            <td colspan="4">
+              <a href="confirmacion.html">Confirmar pedido</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <script type="module" src="script.js"></script>
+
+    <script
+      src="https://replit.com/public/js/replit-badge-v2.js"
+      theme="dark"
+      position="bottom-right"
+    ></script>
+  </body>
+</html>

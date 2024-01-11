@@ -1,0 +1,45 @@
+table td,
+table th {
+  border: 2px solid black;
+}
+
+table {
+  width: 100%;
+  border: 2px solid grey
+}
+
+.total {
+  text-align: center;
+}
+
+a {
+  text-align: center;
+  color: blue;
+}
+
+img {
+  width: 3em;
+}
+td{
+  padding: 0.5em; 
+  text-align: center;
+}
+.confirmacion{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
+.productoName{ 
+  display: grid;
+  margin: auto;
+}
+.productoName img{ 
+  margin: auto;
+}
+button a{
+  color: black;
+  padding: 1em;
+  width: 2em; 
+}

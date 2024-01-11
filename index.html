@@ -1,16 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ejemplo</title>
 </head>
+
 <body>
-    <img src="./imagen1.png" alt="">
+
+    <head>
+        ejemplo
+    </head>
+    <!-- <img src="./imagen1.png" alt="">
     <h1>Titulo</h1>
     <p>texto</p>
     <hr>
     <h1>Titulo</h1>
-    <p>texto</p>
+    <p>texto</p> -->
+    <form action="http://pruebacertus.com/recepcionForm">
+
+        <label for="texto1">Texto1</label>
+        <input type="number" name="texto1" id="texto1" value="2">
+        <hr>
+        <label for="texto2">Texto2</label>
+        <input type="date" id="texto2">
+        <hr>
+        <label for="texto3">texto3</label>
+        <!-- <input type="text" id="texto3" value="un valor por defecto"> -->
+        <input type="text" id="texto3" placeholder="un valor por defecto">
+        <hr>
+
+        <label>tipos documentos:</label>
+        <input type="radio" name="tipoDocumentos" id="radioDNI" value="dni"> dni
+        <input type="radio" name="tipoDocumentos"  id="radioPAS" value="pas"> pasaporte
+        <input type="radio" name="tipoDocumentos" id="radioOTROS" value="otros"> otros
+       
+        <input type="submit" name="btnEnviar" value="Enviar Formulario">
+    </form>
 </body>
+
 </html>
